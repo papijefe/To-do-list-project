@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b1f40; /* Deep blue background */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text for visibility */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #0033a0, #0078d7); /* Gradient reflecting UEFA colors */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #ffd700; /* Gold color for champions style */
+    font-size: 2.5rem;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="file"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ffd700; /* Gold border */
+    border-radius: 6px;
+    background-color: #001933; /* Dark blue input background */
+    color: white;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ffd700, #ffa500); /* Gold-orange gradient */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ffa500, #ff4500); /* Slightly warmer gradient for hover effect */
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px;
+    background: linear-gradient(135deg, #0b1f40, #001933); /* Dark gradient background */
+    border-bottom: 1px solid #ffd700; /* Gold line */
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.task-list li:hover {
+    background: #0033a0; /* Highlight on hover */
+}
+
+.task-list li img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #ffd700; /* Gold border for images */
+}
+
+.task-list li input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #ffd700; /* Gold checkbox */
+}
